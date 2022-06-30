@@ -1,0 +1,25 @@
+.img-comment{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background: url('../Img/images.jpg');
+   
+}
+.img-comment2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background: url('../Img/images\ \(2\).jpg');
+   
+}
+.img-comment3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   background: url('../Img/2020_6$largeimg_2106819729.jpg');
+   
+}
+.main-card-comment{
+    background-color: rgba(252, 252, 252, 0.986);
+  
+}
