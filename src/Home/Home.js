@@ -54,7 +54,7 @@ const Home = () => {
         </p>
 
         <div className="my-5 card-div-home">
-          <Card className="card-custom-css" style={{ width: '18rem' }}>
+          <Card className="card-custom-css" >
             <Card.Img className="card-custom-img" variant="top" src={img} />
             <Card.Body>
               <Card.Title>Learn SCRUM: The Complete Beginner Course</Card.Title>
@@ -62,7 +62,7 @@ const Home = () => {
               <button className="btn2-enroll">ENROLL NOW</button>
             </Card.Body>
           </Card>
-          <Card className="card-custom-css" style={{ width: '18rem' }}>
+          <Card className="card-custom-css" >
             <Card.Img className="card-custom-img" variant="top" src={img} />
             <Card.Body>
               <Card.Title>Learn SCRUM: The Complete Beginner Course</Card.Title>
@@ -70,7 +70,7 @@ const Home = () => {
               <button className="btn2-enroll">ENROLL NOW</button>
             </Card.Body>
           </Card>
-          <Card className="card-custom-css" style={{ width: '18rem' }}>
+          <Card className="card-custom-css" >
             <Card.Img className="card-custom-img" variant="top" src={img} />
             <Card.Body>
               <Card.Title>Learn SCRUM: The Complete Beginner Course</Card.Title>
@@ -78,7 +78,7 @@ const Home = () => {
               <button className="btn2-enroll">ENROLL NOW</button>
             </Card.Body>
           </Card>
-          <Card className="card-custom-css" style={{ width: '18rem' }}>
+          <Card className="card-custom-css" >
             <Card.Img className="card-custom-img" variant="top" src={img} />
             <Card.Body>
               <Card.Title>Learn SCRUM: The Complete Beginner Course</Card.Title>

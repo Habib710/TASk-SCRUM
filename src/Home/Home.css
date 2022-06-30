@@ -3,7 +3,8 @@ body {
 }
 .banner-css {
   min-height: 100vh;
-  background-color: rgb(153, 33, 232);
+  background: radial-gradient(50% 50% at 50% 50%, #5F72BE 0%, #9921E8 100%);
+
 }
 .frist-line-span {
   background-color: rgba(255, 255, 255, 0.9);
@@ -20,12 +21,22 @@ body {
   color: white;
   background-color: rgba(137, 43, 226, 0);
 }
+.btn-enroll:hover{
+  color: #4e84f0;
+  background-color: #fff;
+  transition: .4s ease-in-out;
+}
 .btn2-enroll {
   border: 2px solid rgb(24, 56, 238);
   border-radius: 25px;
   padding: 3px 15px;
   color: rgb(60, 78, 240);
   background-color: rgba(137, 43, 226, 0);
+}
+.btn2-enroll:hover{
+  color: #ffffff;
+  background-color: rgb(82, 85, 236);
+  transition: .4s ease-in-out;
 }
 .hr-css {
   width: 80px;
@@ -95,12 +106,14 @@ body {
 }
 .card-div-home {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  
+
 }
 .card-custom-css {
   border-radius: 15px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .card-custom-img {
   border-radius: 15px 15px 0px 0px;
@@ -245,7 +258,7 @@ body {
   text-decoration: none;
 }
 .comment{
-  min-height: 350px;
+  min-height: 380px;
 }
 .our-hr h4{
   color: rgba(95, 114, 190, 1);
@@ -280,6 +293,11 @@ body {
     font-size: 25px;
     font-weight: 700;
     border-radius: 15px;
+  }
+  .card-div-home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
   }
   .live-span1 {
     display: flex;

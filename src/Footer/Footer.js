@@ -26,7 +26,7 @@ const Footer = () => {
               <h6> Have a question?</h6>
               <p>310-437-2766</p>
             </div>
-            <FontAwesomeIcon className="icons2 px-2" icon={faEnvelope} /> <div className="">
+            <FontAwesomeIcon className="icons2 px-2" icon={faEnvelope} /> <div >
               <h6>Contact us at</h6>
               <p>unreal@outlook.com</p>
             </div>
